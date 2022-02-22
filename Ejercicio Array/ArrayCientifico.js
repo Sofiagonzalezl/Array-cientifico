@@ -1,0 +1,6 @@
+urlsimg = ["https://www.google.com/search?q=volta&tbm=isch&ved=2ahUKEwislIevjJT2AhXfbDABHV3YDGYQ2-cCegQIABAA&oq=volta&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQgAQyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQsQMQgwEQQzoECAAQQzoECAAQA1C9DljsJWC4J2gBcAB4AIAB-giIAfYPkgEJMS40LjEuNy0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ZUAVYuzNMt_ZwbkP3bCzsAY&bih=657&biw=1366&rlz=1C1CHZN_esCO982CO989#imgrc=6cMBY--M8Tj3FM","https://www.google.com/search?q=newton&rlz=1C1CHZN_esCO982CO989&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiH6dGIjpT2AhXbTTABHQ7jCq0Q_AUoAXoECAIQAw&biw=1366&bih=657&dpr=1#imgrc=tHqvMdhkVJGWvM","https://www.google.com/search?q=charles+darwin&rlz=1C1CHZN_esCO982CO989&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjCp-PFjpT2AhX2QjABHfrwAj4Q_AUoAXoECAIQAw&biw=1366&bih=657&dpr=1#imgrc=2baeHe5QDESkvM"]
+nombres = ["Volta","Isaac Newton","Charles Darwin"]
+html = ""
+html = html + `div class = "Cientifico"/><img src = "${urlsimg [0]}"/><p> ${nombres[0]}</p></div><div id ="contenedor"></div>`
+ contenedor = document.querySelector("#contenedor")
+ contenedor.innerHtml = html
